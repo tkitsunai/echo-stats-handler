@@ -32,7 +32,7 @@ import (
 
 func main() {
 	e := echo.New()
-	e.GET("/stats", echo-stats-handler.Stats)
+	e.GET("/stats", echo_stats_handler.Stats)
 	e.Start(":8000")
 }
 ```
