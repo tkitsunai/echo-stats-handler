@@ -1,6 +1,0 @@
-package: github.com/tkitsunai/echo-stats-handler
-import:
-- package: github.com/fukata/golang-stats-api-handler
-  version: v1.0.0
-- package: github.com/labstack/echo
-  version: 3.3.4

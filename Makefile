@@ -1,10 +1,11 @@
-all: vet glide test
+all: vet dep test
 
 vet:
 	go vet ./...
 
-glide:
-	glide install
+dep:
+	dep ensure
+	dep status
 
 test:
 	go test ./...
